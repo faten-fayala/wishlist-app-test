@@ -1,0 +1,286 @@
+@import "~antd/dist/antd.css";
+
+.add_btn {
+  width: 100%;
+  height: 50px;
+  border:1px solid  #1890ff;
+  color: #1890ff;
+}
+
+.add_btn:hover {
+  
+  color: red;
+  
+}
+.ant-btn:hover{
+background-color: #1890ff!important;
+border:none;
+color:#FFFFFF;
+}
+.error {
+  color: red;
+  font-weight: 100;
+}
+form label span {
+  color: red;
+}
+.ant-card-meta-title{
+  text-align: center;
+  font-size: 22px;
+}
+.logout{
+  
+    font-weight: 300;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* form add */
+.login-page {
+  width: 380px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 380px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  /* text-align: center; */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1890ff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  /* -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease; */
+  cursor: pointer;
+}
+.form button:hover {
+  background: #0b80ee;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-align: center;
+}
+.form .message a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.span-plus {
+  padding: 0 20% 0 0;
+  font-size: 18px;
+}
+.ReactModal__Content {
+  background: none !important;
+  border: none !important;
+}
+.button-modal {
+  display: flex;
+}
+.button-confirm {
+  margin-right: 10px;
+}
+/* option select product */
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #1890ff;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  height: 3em;
+  line-height: 3;
+  background: #1890ff;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+select {
+  flex: 1;
+  padding: 0 0.5em;
+  color: #fff;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #1890ff;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+/* Transition */
+/* .select:hover::after {
+    color: #f39c12;
+  } */
+option:hover {
+  background-color: #1890ff;
+}
+/* .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+      color:green;
+  } */
+
+.ant-tabs-nav-wrap {
+  padding: 0 0 0 2%;
+}
+/* list product name */
+.ant-list-item:hover {
+  background-color: #1890ff;
+  opacity: 0.6;
+  color: #ffffff;
+}
+.ant-list-item {
+  padding: 20px 0px 20px 20px;
+  margin: 10px 0px 10px 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.add_btn {
+  margin: 20px;
+  width: 90%;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+}
+.product-card {
+  margin: auto;
+}
+/* descrption product */
+.description {
+  font-family: "Shadows Into Light";
+  font-weight: 500;
+  font-size: medium;
+}
+.--description-title {
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+ 
+}
+.product-description-title{
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+   font-family: 'Shadows Into Light', cursive;
+}
+.avatar-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.avatar-style {
+  background-color: #1890ff;
+  font-weight: 400;
+  top: 0;
+  margin-bottom: 30px;
+}
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.wishlist-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background:linear-gradient(90deg, #fdfbfb 0%,#ebedee 100% );
+}
+.wish-name {
+  font-size: medium;
+  font-weight: 700;
+  padding:20px;
+  margin:2px;
+}
+.img-scroll-top {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  fill: #1890ff;
+}
+.scroll_to_top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 30px;
+}
+.delete-button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1890ff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.delete-button:hover{
+  background-color: #0b80ee;
+}
+.login-style {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
