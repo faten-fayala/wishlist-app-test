@@ -1,9 +1,9 @@
 
 Veuillez consulter la video loom pour voir les fonctionnalités de l'application: 
 
- Url:   https://www.loom.com/share/1d80c48960504140868854ce2e7d894b
+ Url: https://www.loom.com/share/1d80c48960504140868854ce2e7d894b
 
-Technologies utilisé:
+Technologies utilisées:
 
  . Pour la partie Front end :  J'ai utilisé  la librairie AntDesign , le state manager redux et la fonctionnalité hooks de react.
  
